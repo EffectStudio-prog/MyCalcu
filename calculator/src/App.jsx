@@ -9,7 +9,7 @@ function App() {
   const appendNumber = (number) => {
     if (number === "." && currentOperand.includes(".")) return;
     setCurrentOperand(currentOperand + number);
-  };
+  };  
 
   const chooseOperation = (op) => {
     if (currentOperand === "") return;

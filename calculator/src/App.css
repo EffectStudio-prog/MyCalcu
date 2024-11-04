@@ -11,6 +11,7 @@
 
 /* Style adjustments for output */
 .output {
+  height: 300px;
   grid-column: span 4;
   background-color: #1e1e1e;
   color: #f3f3f3;
